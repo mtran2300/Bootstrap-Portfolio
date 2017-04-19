@@ -33,14 +33,20 @@
   </nav>
 
 <div class="container">         
-        <div class="col-md-9">
-        
-
-<!--code here-->
-
-
-      </div>
-      
+    <div class="col-md-9">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                        <div class="form-group">
+                           <label for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                                <button type="submit" class="btn btn-default">Send Email</button>
+                        </div>            
+            </div>
+         </form> 
+    </div>
+                                    
         <div class="col-md-3">
           <div class="panel panel-default">
               <div class="panel-heading">Connect with Me</div>     
@@ -52,8 +58,18 @@
                 </div>
               </div>
 
+                                    <div class="row">
+                                      <div class="col-md-8">
+                                        <h3> Message</h3>
+                                        <label class="sr-only" for="inputHelpBlock">Message</label>
+                                            <input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+                                            <div class=""></div><span id="helpBlock" class="help-block"></span>
+                                      </div>
+                                    </div>  
+                        
+</div>
 
-      <div class="container-fluid"> 
+     <div class="container-fluid"> 
         <div class="row">
           <div class="col-md-12">
             <div class="footer navbar-fixed-bottom">
@@ -64,6 +80,7 @@
           </div>
         </div>
       </div>  
+
 </body>
 </html>
   
