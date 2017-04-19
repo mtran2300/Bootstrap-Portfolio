@@ -1,12 +1,17 @@
 .panel-heading{
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .panel-body{
      text-align: center;
-     padding-bottom: 80px;
+     padding-bottom: 40px;
 }
 
 .panel-footer{
 	text-align: center;
+}
+
+#portfolio-section{
+	margin-bottom: 10px;
 }
